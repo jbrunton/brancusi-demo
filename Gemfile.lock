@@ -1,3 +1,21 @@
+GIT
+  remote: git@github.com:jbrunton/brancusi-rails.git
+  revision: e9a2512985c6f810c1cab09cd9248e8b9886de45
+  branch: master
+  specs:
+    brancusi-rails (0.0.1)
+      coffee-rails
+      rails (~> 3.2.11)
+
+GIT
+  remote: git@github.com:jbrunton/brancusi.git
+  revision: c281641220fd071ee6b04f401c84df9b59267186
+  branch: master
+  specs:
+    brancusi (0.0.1)
+      rails (~> 3.2.9)
+      railties (~> 3.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -104,6 +122,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  brancusi!
+  brancusi-rails!
   coffee-rails (~> 3.2.1)
   jquery-rails
   rails (= 3.2.11)

@@ -7,6 +7,9 @@ gem 'rails', '3.2.11'
 
 gem 'sqlite3'
 
+gem "brancusi", :git => 'git@github.com:jbrunton/brancusi.git', :branch => 'master'
+gem "brancusi-rails", :git => 'git@github.com:jbrunton/brancusi-rails.git', :branch => 'master'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
