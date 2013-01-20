@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require brancusi 
+//= require app 
 //= require_tree .
